@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<title>Aprendendo AngularJS</title>
+
+	<link rel="stylesheet" href="dist/css/style.css">
+	
+
+</head>
+<body ng-app="aplication">
+	<header>
+		<div ng-controller="HeaderController">
+			<div class="header-top container">
+				<h1>Olá, {{nome}}</h1>
+				<p ng-show="iniciado">Curso inciado</p>
+				<p ng-hide="iniciado">Curso finalizado</p>
+				<p ng-if="!iniciado">Aguarde...</p><br>
+				<li ng-repeat="dsa in alunos">
+				{{dsa}}
+				</li>
+			</div>
+		</div>
+	</header>	
+
+	<script src="source/componentes/angular/angular.min.js"></script>
+	<script src="dist/js/app.js"></script>
+	<script src="dist/js/first-controller.js">	
+	</script>
+</body>
+</html>

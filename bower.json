@@ -1,0 +1,22 @@
+{
+  "name": "angularjs",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "rafael"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    ".source/componentes/",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "v4.0.0-alpha.5",
+    "angular": "^1.6.2"
+  }
+}
