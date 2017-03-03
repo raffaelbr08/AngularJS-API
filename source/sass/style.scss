@@ -1,7 +1,8 @@
 @import '../componentes/bootstrap/scss/bootstrap.scss';
-
+@import "header";
+@import "_alunos_cadastrados";
 
 body {
-	background-color:pink;
-	color:#fff;	
+	background-color:pink;	
 }
+
