@@ -7,7 +7,6 @@ gulp.task('sass', function(){
 	.pipe(gulp.dest('./dist/css'));
 });
 
-
 gulp.task('escutar',function(){
 	gulp.watch('./source/sass/**/*.scss',['sass'])
 	
