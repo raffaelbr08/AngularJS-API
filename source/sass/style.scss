@@ -1,4 +1,7 @@
 @import "../componentes/bootstrap/scss/bootstrap";
 @import "header";
-@import "_alunos_cadastrados";
+@import "home";
 
+body{
+	background-color:pink;
+}

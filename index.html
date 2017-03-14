@@ -4,18 +4,13 @@
 	<meta charset="UTF-8">
 	<title>Aprendendo AngularJS</title>	
 	<link rel="stylesheet" href="dist/css/style.css">
-
-
 </head>
+<!-- IMPORTANTE ARRUMAR PORTFOLIO COM FOTOS DOS SITES DO MEUS DOCUMENTOS -->
+ 	<body ng-app="api"> 		
+ 		<ng-include	src="'header.html'"></ng-include>
 
- 	<body ng-app="api">
- 	<hr>
- 		<ul>
- 			<li><a ui-sref="home">home</a></li>
- 			<li><a href="#">Show Account</a></li>
-  		</ul>		
-
-        <div ui-view>  </div>
+        <div ui-view>
+        </div>
 
 		<div class="text-center">
 	    		<p>This is footer</p>
@@ -23,8 +18,11 @@
 
 	<script src="source/componentes/angular/angular.js"></script>
 	<script src="source/componentes/angular-ui/angular-ui-router.js"></script>
-	<script src="app.js"></script>
+	<script src="dist/app.js"></script>
 
+	<!--controllers -->
+	<script src="views/ctrlHome.js"></script>
+	<script src="views/ctrlAbout.js"></script>
 	
 	
 </body>
