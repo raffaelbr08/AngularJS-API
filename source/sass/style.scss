@@ -1,7 +1,29 @@
 @import "../componentes/bootstrap/scss/bootstrap";
 @import "header";
 @import "home";
+@import "variables";
+@import "footer";
 
-body{
-	background-color:pink;
+// STYLE GERAL
+html, body{
+  height: 100%;
 }
+
+body { 
+			background-image: url(/dist/img/bg-full.jpg) ;
+			background-position: center center;
+			background-repeat:  no-repeat;
+			background-attachment: fixed;
+			background-size:  cover;	
+			font-family: 'Open Sans', sans-serif;				
+}
+
+// TYPOGRAFY
+
+h1,h2,h3,h4 {
+	font-family: 'Roboto Slab', serif;
+}
+a {
+font-family: 'Roboto Slab', serif;	font-weight:550;
+}
+

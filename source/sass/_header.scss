@@ -1,3 +1,38 @@
-header {
-	background-color:#d46433;
+@import "variables";
+
+
+// NAV BAR
+nav{
+	background-color:#fff;
+	border:solid 1px #d4d4d4;
+	ul.navbar-nav.nav-adp{
+		margin:0 auto;	
+		.nav-item{
+			margin-left:20px;
+		}
+	 	li > a {
+			color:$color-padrao2;
+			font-size:18px;
+			border-radius:5%;
+
+		&:hover{
+			transition:1s;
+			background-color:$color-padrao;
+			color:#fff!important;
+
+		}
+		}
+	}
+}
+.top-header{
+	background-color:#fff;
+	.header{
+		max-width:500px;
+		margin:0 auto;		
+		a.navbar-brand.img-logo {
+			padding:0!important;
+			margin:0!important;
+			margin:0 auto;
+		}
+	}
 }
