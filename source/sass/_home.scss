@@ -1,0 +1,89 @@
+@import "variables";
+
+#home{	
+	border-top:1px solid #d4d4d4;
+	background-color:$bg-padrao;
+	padding:50px;
+	text-align:center;
+	h1,h2{
+		color:$color-padrao;		
+	}
+	a.btn.btn-info.adp{
+		background-color:$color-padrao;
+		border:none;
+		color:#fff;		
+		&:hover{
+		opacity: 0.8;											
+		}
+	}
+}
+
+//SECTION EVENTOS 
+#events {
+	text-align:center;
+	background-image:url('/dist/img/bg-events.jpg')!important;
+	background-repeat:no-repeat;
+	background-size:cover;
+	min-height:500px;
+	color:#fff;
+	.event-post{
+		margin:0 auto;
+		max-width:960px;
+		
+		.event-img{
+			margin:10px;
+			max-width:90px;
+			min-height:90px;
+			background-color:$color-padrao;
+			.data-info{
+				font-size:25px;
+				margin:20px 0 0 0;
+			}
+			.mes-info{
+				font-size:12px;
+			}
+		}	
+		.event-info{
+			margin:10px;
+			min-height:100px;
+			padding-top:25px;
+			border:solid 2px $color-padrao2;
+			.event-title {
+				font-size:20px;
+				border-right:1px solid #d4d4d4;
+
+			}
+		}
+	}
+}
+
+// SECTION HOME3
+.home3{		
+	.col-md-4.end{
+		background-image:url('/dist/img/img-box.jpg');
+		background-position:center;
+		background-size:cover;			
+		padding:0px;
+		height:100%;
+		.box-adp{
+			background-color: rgba(63, 125, 205, 0.74902);			
+			font-size:18px;
+			color:#fff;
+			padding-top:45px;			
+			height:250px;			
+			width:100%;
+		}
+		.box-adp.cultos{
+			background-color: rgba(255, 127, 0, 0.75902);			
+		}
+		.box-adp.telefone{
+			background-color: rgba(92, 100, 109, 0.79902);
+		}
+	}
+	.col-md-4.end.cultos{		
+		background-image:url('/dist/img/img-box2.jpg');
+	}
+	.col-md-4.end.telefone{
+		background-image:url('/dist/img/img-box3.jpg');
+	}
+}
